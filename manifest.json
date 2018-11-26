@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "TinyWebEx – unit tests",
+  "short_name": "TinyWebEx – unit tests",
+  "version": "1.0",
+  "author": "rugk",
+
+  "description": "A simple example add-on that can be used to unit-test all modules.",
+  "homepage_url": "https://github.com/TinyWebEx/TinyWebExUnitTest",
+
+  // allows loading unit test libraries from CDNs
+  "content_security_policy": "default-src 'self'; img-src data:; style-src 'self' https://unpkg.com; script-src 'self' https://unpkg.com",
+  "icons": {
+    "16": "icons/icon-small-colored.svg",
+    "32": "icons/icon-small-colored.svg",
+    "48": "icons/icon-large.svg",
+    "96": "icons/icon-large.svg"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "tinyWebExtunitTest@rugk.github.io",
+      // v60 required due to ES6 modules
+      "strict_min_version": "60.0a1"
+    }
+  }
+}

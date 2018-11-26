@@ -1,0 +1,21 @@
+[submodule "modules/RandomTips"]
+	path = modules/RandomTips
+	url = https://github.com/TinyWebEx/RandomTips
+[submodule "modules/MessageHandler"]
+	path = modules/MessageHandler
+	url = https://github.com/TinyWebEx/MessageHandler
+[submodule "modules/Logger"]
+	path = modules/Logger
+	url = https://github.com/TinyWebEx/Logger
+[submodule "modules/AutomaticSettings"]
+	path = modules/AutomaticSettings
+	url = https://github.com/TinyWebEx/AutomaticSettings
+[submodule "modules/AddonSettings"]
+	path = modules/AddonSettings
+	url = https://github.com/TinyWebEx/AddonSettings
+[submodule "modules/lodash"]
+	path = modules/lodash
+	url = https://github.com/TinyWebEx/lodash
+[submodule "modules/TestHelper"]
+	path = modules/TestHelper
+	url = https://github.com/TinyWebEx/TestHelper
