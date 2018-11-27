@@ -6,7 +6,7 @@
         "browser": true,
         "webextensions": true,
         "es6": true,
-		"mocha": true
+        "mocha": true
     },
     "plugins": [
         "mocha"
