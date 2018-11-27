@@ -40,7 +40,7 @@
  */
 const tipArray = [
     {
-        id: "likeAddon",
+        id: "exampleData",
         requiredShowCount: 3,
         requireDismiss: 1,
         maximumDismiss: 2,
@@ -49,53 +49,12 @@ const tipArray = [
             "popup": 1
         },
         randomizeDisplay: false,
-        text: "tipYouLikeAddon",
+        text: "tipExampleData",
         actionButton: {
-            text: "tipYouLikeAddonButton",
-            action: "https://addons.mozilla.org/firefox/addon/offline-qr-code-generator/reviews/"
+            text: "tipExampleDataButton",
+            action: "https://addons.mozilla.org/firefox/…"
         }
     },
-    {
-        id: "saveQr",
-        requiredShowCount: 5,
-        requireDismiss: 1,
-        maximumDismiss: 2,
-        requiredTriggers: 5,
-        showInContext: {
-            "popup": 1
-        },
-        randomizeDisplay: false,
-        text: "tipSaveQrCode",
-        actionButton: {
-            text: "tipLearnMore",
-            action: "tipSaveQrCodeLink"
-        }
-    },
-    // {
-    //     id: "donate",
-    //     // do not show on options page as Firefox already displays a donate button there
-    //     requiredShowCount: 4,
-    //     requireDismiss: 1,
-    //     maximumDismiss: 2,
-    //     requiredTriggers: 50,
-    //     maximumInContest: {
-    //         "options": 1
-    //     },
-    //     randomizeDisplay: 0.4,
-    //     text: "tipDonate",
-    //     actionButton: {
-    //         text: "tipDonateButton",
-    //         action: "https://liberapay.com/rugk/"
-    //     }
-    // },
-    {
-        id: "qrCodeHotkey",
-        requiredShowCount: 3,
-        maximumDismiss: 1,
-        requiredTriggers: 2,
-        randomizeDisplay: false,
-        text: "tipQrCodeHotkey",
-    }
 ];
 
 // freeze it all, this is strongly recommend

@@ -11,7 +11,7 @@
  * @type {string}
  * @default
  */
-export const ADDON_NAME = "Offline QR code generator"; // eslint-disable-line no-unused-vars
+export const ADDON_NAME = "TinyWebEx unit test addon"; // eslint-disable-line no-unused-vars
 
 /**
  * Specifies the short name of this add-on.,
@@ -20,4 +20,4 @@ export const ADDON_NAME = "Offline QR code generator"; // eslint-disable-line no
  * @type {string}
  * @default
  */
-export const ADDON_NAME_SHORT = "Offline QR code";
+export const ADDON_NAME_SHORT = "TinyWebEx unit test addon";
