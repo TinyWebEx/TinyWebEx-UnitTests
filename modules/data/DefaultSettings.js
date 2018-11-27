@@ -5,6 +5,8 @@
  */
 
 export const DEFAULT_SETTINGS = Object.freeze({
+    exampleDefaultSetting: "#0c0c0d",
+    exampleDefaultSettingSecondColor: "#ffffff",
     debugMode: false,
     randomTips: {
         tips: {}
